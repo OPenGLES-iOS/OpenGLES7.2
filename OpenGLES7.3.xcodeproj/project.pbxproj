@@ -15,6 +15,31 @@
 		83BAC3561EE9488F00A20043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3541EE9488F00A20043 /* LaunchScreen.storyboard */; };
 		83BAC3611EE9488F00A20043 /* OpenGLES7_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3601EE9488F00A20043 /* OpenGLES7_3Tests.m */; };
 		83BAC36C1EE9488F00A20043 /* OpenGLES7_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC36B1EE9488F00A20043 /* OpenGLES7_3UITests.m */; };
+		83BAC3921EE948D600A20043 /* UtilityArmatureBaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC37B1EE948D600A20043 /* UtilityArmatureBaseEffect.m */; };
+		83BAC3931EE948D600A20043 /* UtilityJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC37D1EE948D600A20043 /* UtilityJoint.m */; };
+		83BAC3941EE948D600A20043 /* UtilityMesh+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC37F1EE948D600A20043 /* UtilityMesh+skinning.m */; };
+		83BAC3951EE948D600A20043 /* UtilityMesh+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3811EE948D600A20043 /* UtilityMesh+viewAdditions.m */; };
+		83BAC3961EE948D600A20043 /* UtilityMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3831EE948D600A20043 /* UtilityMesh.m */; };
+		83BAC3971EE948D600A20043 /* UtilityModel+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3851EE948D600A20043 /* UtilityModel+skinning.m */; };
+		83BAC3981EE948D600A20043 /* UtilityModel+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3871EE948D600A20043 /* UtilityModel+viewAdditions.m */; };
+		83BAC3991EE948D600A20043 /* UtilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3891EE948D600A20043 /* UtilityModel.m */; };
+		83BAC39A1EE948D600A20043 /* UtilityModelManager+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC38B1EE948D600A20043 /* UtilityModelManager+skinning.m */; };
+		83BAC39B1EE948D600A20043 /* UtilityModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC38D1EE948D600A20043 /* UtilityModelManager.m */; };
+		83BAC39C1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC38F1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.m */; };
+		83BAC39D1EE948D600A20043 /* UtilityTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3911EE948D600A20043 /* UtilityTextureInfo.m */; };
+		83BAC3A11EE9490B00A20043 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC3A01EE9490B00A20043 /* AGLKContext.m */; };
+		83BAC3A31EE9565600A20043 /* test1.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3A21EE9565600A20043 /* test1.modelplist */; };
+		83BAC3A51EE9599400A20043 /* armature.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3A41EE9599400A20043 /* armature.modelplist */; };
+		83BAC3B11EEA466D00A20043 /* UtilityArmaturePointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3A71EEA466D00A20043 /* UtilityArmaturePointLightShader.fsh */; };
+		83BAC3B21EEA466D00A20043 /* UtilityArmaturePointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3A81EEA466D00A20043 /* UtilityArmaturePointLightShader.vsh */; };
+		83BAC3B31EEA466D00A20043 /* UtilityBillboardParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3A91EEA466D00A20043 /* UtilityBillboardParticleShader.fsh */; };
+		83BAC3B41EEA466D00A20043 /* UtilityBillboardParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AA1EEA466D00A20043 /* UtilityBillboardParticleShader.vsh */; };
+		83BAC3B51EEA466D00A20043 /* UtilityModelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AB1EEA466D00A20043 /* UtilityModelShader.fsh */; };
+		83BAC3B61EEA466D00A20043 /* UtilityModelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AC1EEA466D00A20043 /* UtilityModelShader.vsh */; };
+		83BAC3B71EEA466D00A20043 /* UtilityPickTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AD1EEA466D00A20043 /* UtilityPickTerrainShader.fsh */; };
+		83BAC3B81EEA466D00A20043 /* UtilityPickTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AE1EEA466D00A20043 /* UtilityPickTerrainShader.vsh */; };
+		83BAC3B91EEA466D00A20043 /* UtilityTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3AF1EEA466D00A20043 /* UtilityTerrainShader.fsh */; };
+		83BAC3BA1EEA466D00A20043 /* UtilityTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 83BAC3B01EEA466D00A20043 /* UtilityTerrainShader.vsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +76,45 @@
 		83BAC3671EE9488F00A20043 /* OpenGLES7.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLES7.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BAC36B1EE9488F00A20043 /* OpenGLES7_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES7_3UITests.m; sourceTree = "<group>"; };
 		83BAC36D1EE9488F00A20043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BAC37A1EE948D600A20043 /* UtilityArmatureBaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityArmatureBaseEffect.h; sourceTree = "<group>"; };
+		83BAC37B1EE948D600A20043 /* UtilityArmatureBaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityArmatureBaseEffect.m; sourceTree = "<group>"; };
+		83BAC37C1EE948D600A20043 /* UtilityJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityJoint.h; sourceTree = "<group>"; };
+		83BAC37D1EE948D600A20043 /* UtilityJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityJoint.m; sourceTree = "<group>"; };
+		83BAC37E1EE948D600A20043 /* UtilityMesh+skinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityMesh+skinning.h"; sourceTree = "<group>"; };
+		83BAC37F1EE948D600A20043 /* UtilityMesh+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityMesh+skinning.m"; sourceTree = "<group>"; };
+		83BAC3801EE948D600A20043 /* UtilityMesh+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityMesh+viewAdditions.h"; sourceTree = "<group>"; };
+		83BAC3811EE948D600A20043 /* UtilityMesh+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityMesh+viewAdditions.m"; sourceTree = "<group>"; };
+		83BAC3821EE948D600A20043 /* UtilityMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMesh.h; sourceTree = "<group>"; };
+		83BAC3831EE948D600A20043 /* UtilityMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMesh.m; sourceTree = "<group>"; };
+		83BAC3841EE948D600A20043 /* UtilityModel+skinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModel+skinning.h"; sourceTree = "<group>"; };
+		83BAC3851EE948D600A20043 /* UtilityModel+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModel+skinning.m"; sourceTree = "<group>"; };
+		83BAC3861EE948D600A20043 /* UtilityModel+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModel+viewAdditions.h"; sourceTree = "<group>"; };
+		83BAC3871EE948D600A20043 /* UtilityModel+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModel+viewAdditions.m"; sourceTree = "<group>"; };
+		83BAC3881EE948D600A20043 /* UtilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModel.h; sourceTree = "<group>"; };
+		83BAC3891EE948D600A20043 /* UtilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModel.m; sourceTree = "<group>"; };
+		83BAC38A1EE948D600A20043 /* UtilityModelManager+skinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModelManager+skinning.h"; sourceTree = "<group>"; };
+		83BAC38B1EE948D600A20043 /* UtilityModelManager+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModelManager+skinning.m"; sourceTree = "<group>"; };
+		83BAC38C1EE948D600A20043 /* UtilityModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModelManager.h; sourceTree = "<group>"; };
+		83BAC38D1EE948D600A20043 /* UtilityModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModelManager.m; sourceTree = "<group>"; };
+		83BAC38E1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityTextureInfo+viewAdditions.h"; sourceTree = "<group>"; };
+		83BAC38F1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityTextureInfo+viewAdditions.m"; sourceTree = "<group>"; };
+		83BAC3901EE948D600A20043 /* UtilityTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTextureInfo.h; sourceTree = "<group>"; };
+		83BAC3911EE948D600A20043 /* UtilityTextureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTextureInfo.m; sourceTree = "<group>"; };
+		83BAC39E1EE9490B00A20043 /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		83BAC39F1EE9490B00A20043 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		83BAC3A01EE9490B00A20043 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		83BAC3A21EE9565600A20043 /* test1.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = test1.modelplist; sourceTree = "<group>"; };
+		83BAC3A41EE9599400A20043 /* armature.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = armature.modelplist; sourceTree = "<group>"; };
+		83BAC3A71EEA466D00A20043 /* UtilityArmaturePointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityArmaturePointLightShader.fsh; sourceTree = "<group>"; };
+		83BAC3A81EEA466D00A20043 /* UtilityArmaturePointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityArmaturePointLightShader.vsh; sourceTree = "<group>"; };
+		83BAC3A91EEA466D00A20043 /* UtilityBillboardParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityBillboardParticleShader.fsh; sourceTree = "<group>"; };
+		83BAC3AA1EEA466D00A20043 /* UtilityBillboardParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityBillboardParticleShader.vsh; sourceTree = "<group>"; };
+		83BAC3AB1EEA466D00A20043 /* UtilityModelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityModelShader.fsh; sourceTree = "<group>"; };
+		83BAC3AC1EEA466D00A20043 /* UtilityModelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityModelShader.vsh; sourceTree = "<group>"; };
+		83BAC3AD1EEA466D00A20043 /* UtilityPickTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.fsh; sourceTree = "<group>"; };
+		83BAC3AE1EEA466D00A20043 /* UtilityPickTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.vsh; sourceTree = "<group>"; };
+		83BAC3AF1EEA466D00A20043 /* UtilityTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.fsh; sourceTree = "<group>"; };
+		83BAC3B01EEA466D00A20043 /* UtilityTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.vsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +165,10 @@
 		83BAC3451EE9488F00A20043 /* OpenGLES7.3 */ = {
 			isa = PBXGroup;
 			children = (
+				83BAC39E1EE9490B00A20043 /* AGLKAxisAllignedBoundingBox.h */,
+				83BAC39F1EE9490B00A20043 /* AGLKContext.h */,
+				83BAC3A01EE9490B00A20043 /* AGLKContext.m */,
+				83BAC3791EE948D600A20043 /* ModelLoding */,
 				83BAC3491EE9488F00A20043 /* AppDelegate.h */,
 				83BAC34A1EE9488F00A20043 /* AppDelegate.m */,
 				83BAC34C1EE9488F00A20043 /* ViewController.h */,
@@ -117,6 +185,8 @@
 		83BAC3461EE9488F00A20043 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83BAC3A41EE9599400A20043 /* armature.modelplist */,
+				83BAC3A21EE9565600A20043 /* test1.modelplist */,
 				83BAC3471EE9488F00A20043 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +208,55 @@
 				83BAC36D1EE9488F00A20043 /* Info.plist */,
 			);
 			path = OpenGLES7.3UITests;
+			sourceTree = "<group>";
+		};
+		83BAC3791EE948D600A20043 /* ModelLoding */ = {
+			isa = PBXGroup;
+			children = (
+				83BAC3A61EEA466D00A20043 /* Shaders */,
+				83BAC37A1EE948D600A20043 /* UtilityArmatureBaseEffect.h */,
+				83BAC37B1EE948D600A20043 /* UtilityArmatureBaseEffect.m */,
+				83BAC37C1EE948D600A20043 /* UtilityJoint.h */,
+				83BAC37D1EE948D600A20043 /* UtilityJoint.m */,
+				83BAC37E1EE948D600A20043 /* UtilityMesh+skinning.h */,
+				83BAC37F1EE948D600A20043 /* UtilityMesh+skinning.m */,
+				83BAC3801EE948D600A20043 /* UtilityMesh+viewAdditions.h */,
+				83BAC3811EE948D600A20043 /* UtilityMesh+viewAdditions.m */,
+				83BAC3821EE948D600A20043 /* UtilityMesh.h */,
+				83BAC3831EE948D600A20043 /* UtilityMesh.m */,
+				83BAC3841EE948D600A20043 /* UtilityModel+skinning.h */,
+				83BAC3851EE948D600A20043 /* UtilityModel+skinning.m */,
+				83BAC3861EE948D600A20043 /* UtilityModel+viewAdditions.h */,
+				83BAC3871EE948D600A20043 /* UtilityModel+viewAdditions.m */,
+				83BAC3881EE948D600A20043 /* UtilityModel.h */,
+				83BAC3891EE948D600A20043 /* UtilityModel.m */,
+				83BAC38A1EE948D600A20043 /* UtilityModelManager+skinning.h */,
+				83BAC38B1EE948D600A20043 /* UtilityModelManager+skinning.m */,
+				83BAC38C1EE948D600A20043 /* UtilityModelManager.h */,
+				83BAC38D1EE948D600A20043 /* UtilityModelManager.m */,
+				83BAC38E1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.h */,
+				83BAC38F1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.m */,
+				83BAC3901EE948D600A20043 /* UtilityTextureInfo.h */,
+				83BAC3911EE948D600A20043 /* UtilityTextureInfo.m */,
+			);
+			path = ModelLoding;
+			sourceTree = "<group>";
+		};
+		83BAC3A61EEA466D00A20043 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				83BAC3A71EEA466D00A20043 /* UtilityArmaturePointLightShader.fsh */,
+				83BAC3A81EEA466D00A20043 /* UtilityArmaturePointLightShader.vsh */,
+				83BAC3A91EEA466D00A20043 /* UtilityBillboardParticleShader.fsh */,
+				83BAC3AA1EEA466D00A20043 /* UtilityBillboardParticleShader.vsh */,
+				83BAC3AB1EEA466D00A20043 /* UtilityModelShader.fsh */,
+				83BAC3AC1EEA466D00A20043 /* UtilityModelShader.vsh */,
+				83BAC3AD1EEA466D00A20043 /* UtilityPickTerrainShader.fsh */,
+				83BAC3AE1EEA466D00A20043 /* UtilityPickTerrainShader.vsh */,
+				83BAC3AF1EEA466D00A20043 /* UtilityTerrainShader.fsh */,
+				83BAC3B01EEA466D00A20043 /* UtilityTerrainShader.vsh */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +326,8 @@
 				TargetAttributes = {
 					83BAC3421EE9488F00A20043 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X585696T4B;
+						ProvisioningStyle = Manual;
 					};
 					83BAC35B1EE9488F00A20043 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -246,9 +366,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BAC3B41EEA466D00A20043 /* UtilityBillboardParticleShader.vsh in Resources */,
+				83BAC3A31EE9565600A20043 /* test1.modelplist in Resources */,
+				83BAC3B71EEA466D00A20043 /* UtilityPickTerrainShader.fsh in Resources */,
+				83BAC3BA1EEA466D00A20043 /* UtilityTerrainShader.vsh in Resources */,
+				83BAC3A51EE9599400A20043 /* armature.modelplist in Resources */,
+				83BAC3B11EEA466D00A20043 /* UtilityArmaturePointLightShader.fsh in Resources */,
+				83BAC3B61EEA466D00A20043 /* UtilityModelShader.vsh in Resources */,
+				83BAC3B81EEA466D00A20043 /* UtilityPickTerrainShader.vsh in Resources */,
 				83BAC3561EE9488F00A20043 /* LaunchScreen.storyboard in Resources */,
+				83BAC3B51EEA466D00A20043 /* UtilityModelShader.fsh in Resources */,
+				83BAC3B91EEA466D00A20043 /* UtilityTerrainShader.fsh in Resources */,
 				83BAC3531EE9488F00A20043 /* Assets.xcassets in Resources */,
 				83BAC3511EE9488F00A20043 /* Main.storyboard in Resources */,
+				83BAC3B21EEA466D00A20043 /* UtilityArmaturePointLightShader.vsh in Resources */,
+				83BAC3B31EEA466D00A20043 /* UtilityBillboardParticleShader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +405,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BAC3991EE948D600A20043 /* UtilityModel.m in Sources */,
+				83BAC39A1EE948D600A20043 /* UtilityModelManager+skinning.m in Sources */,
 				83BAC34E1EE9488F00A20043 /* ViewController.m in Sources */,
+				83BAC3961EE948D600A20043 /* UtilityMesh.m in Sources */,
 				83BAC34B1EE9488F00A20043 /* AppDelegate.m in Sources */,
+				83BAC39C1EE948D600A20043 /* UtilityTextureInfo+viewAdditions.m in Sources */,
+				83BAC39D1EE948D600A20043 /* UtilityTextureInfo.m in Sources */,
+				83BAC3941EE948D600A20043 /* UtilityMesh+skinning.m in Sources */,
 				83BAC3481EE9488F00A20043 /* main.m in Sources */,
+				83BAC3921EE948D600A20043 /* UtilityArmatureBaseEffect.m in Sources */,
+				83BAC39B1EE948D600A20043 /* UtilityModelManager.m in Sources */,
+				83BAC3951EE948D600A20043 /* UtilityMesh+viewAdditions.m in Sources */,
+				83BAC3A11EE9490B00A20043 /* AGLKContext.m in Sources */,
+				83BAC3971EE948D600A20043 /* UtilityModel+skinning.m in Sources */,
+				83BAC3931EE948D600A20043 /* UtilityJoint.m in Sources */,
+				83BAC3981EE948D600A20043 /* UtilityModel+viewAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +569,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = X585696T4B;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/OpenGLES7.3/ModelLoding\"";
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = OpenGLES7.3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/OpenGLES7.3/ModelLoding\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES7-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Debug;
 		};
@@ -435,10 +588,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = X585696T4B;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/OpenGLES7.3/ModelLoding\"";
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = OpenGLES7.3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/OpenGLES7.3/ModelLoding\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES7-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Release;
 		};
@@ -507,6 +668,7 @@
 				83BAC3721EE9488F00A20043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BAC3731EE9488F00A20043 /* Build configuration list for PBXNativeTarget "OpenGLES7.3Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +677,7 @@
 				83BAC3751EE9488F00A20043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BAC3761EE9488F00A20043 /* Build configuration list for PBXNativeTarget "OpenGLES7.3UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +686,7 @@
 				83BAC3781EE9488F00A20043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
